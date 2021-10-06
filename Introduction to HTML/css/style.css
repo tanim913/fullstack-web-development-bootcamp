@@ -1,0 +1,9 @@
+body {
+  background-color: rgb(253, 255, 139);
+}
+
+hr {
+  background-color: rgb(197, 110, 255);
+  border-style: none;
+  height: 12px;
+}
