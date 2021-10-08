@@ -1,9 +1,17 @@
 body {
-  background-color: rgb(253, 255, 139);
+  background-color: rgb(139, 245, 255);
 }
 
 hr {
-  background-color: rgb(197, 110, 255);
+  background-color: rgb(139, 245, 255);
   border-style: none;
-  height: 12px;
+  border-top-style: dotted;
+  border-color: rgb(128, 0, 75);
+  border-width: 5px;
+  height: 0px;
+  width: 10%;
+}
+
+h3 {
+  color: darkred;
 }

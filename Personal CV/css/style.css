@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(230, 249, 255);
+  margin: 0;
+}
+.cyan-box {
+  background-color: cyan;
+  height: 200px;
+  width: 200px;
+  border: solid 10px;
+  padding: 20px;
+}
+.red-box {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  border: solid 20px;
+  margin-left: 260px;
+}
+
+.blue-box {
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+  border: solid 10px;
+  margin-left: 500px;
+}

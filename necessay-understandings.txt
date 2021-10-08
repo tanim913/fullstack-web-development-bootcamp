@@ -1,1 +1,8 @@
 i) HTML Forms
+ii) using css with tag, classes and id's
+iii) psedu class to hover
+iv) built in css style of the browser 
+v) style override 
+vi) built in css style can be overriden by re-assigning
+vii) margin padding border are separate from each other
+viii) when it comes to add padding in 
