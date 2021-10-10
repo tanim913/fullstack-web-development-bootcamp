@@ -3,6 +3,70 @@ ii) using css with tag, classes and id's
 iii) psedu class to hover
 iv) built in css style of the browser 
 v) style override 
-vi) built in css style can be overriden by re-assigning
+vi) built in css style can be overriden by re-assigning the propety
 vii) margin padding border are separate from each other
-viii) when it comes to add padding in 
+viii) when it comes to add padding inside a div, it only adds padding to the content of the div
+ix) inline element can be created by block element by changing display propety into inline but it lost 
+the ability to to add width to the block element
+
+x) four types of positioning :
+    static
+    relative
+11) relative position basically adds mirgins from the specific side
+    Example :
+        .cyan-box {
+        background-color: blue;
+        height: 200px;
+        width: 200px;
+        position: relative;
+        bottom: 400px;
+        }
+        .red-box {
+        background-color: red;
+        height: 200px;
+        width: 200px;
+        position: relative;
+        left: 400px;
+        }
+
+        .blue-box {
+        background-color: rgb(255, 238, 0);
+        height: 200px;
+        width: 200px;
+        position: relative;
+        bottom: 200px;
+        left: 200px;
+        }
+12) about inline block element
+
+13) absolute position basically adds mirgins from the parent
+
+Example:
+    .cyan-box {
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left: 200px;
+  top: 200px;
+}
+.red-box {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 400px;
+  left: 400px;
+}
+
+.blue-box {
+  background-color: rgb(255, 238, 0);
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left: 0;
+  top: 0px;
+}
+14)position : fixed
+will fix position of something in a proper area of the screen
+15)margin: 0 auto 0 auto // top -- right -- bottom -- left

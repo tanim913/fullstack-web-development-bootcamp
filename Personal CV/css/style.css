@@ -3,24 +3,27 @@ body {
   margin: 0;
 }
 .cyan-box {
-  background-color: cyan;
+  background-color: blue;
   height: 200px;
   width: 200px;
-  border: solid 10px;
-  padding: 20px;
+  position: absolute;
+  left: 200px;
+  top: 200px;
 }
 .red-box {
   background-color: red;
   height: 200px;
   width: 200px;
-  border: solid 20px;
-  margin-left: 260px;
+  position: absolute;
+  top: 400px;
+  left: 400px;
 }
 
 .blue-box {
-  background-color: blue;
+  background-color: rgb(255, 238, 0);
   height: 200px;
   width: 200px;
-  border: solid 10px;
-  margin-left: 500px;
+  position: absolute;
+  left: 0;
+  top: 0px;
 }
