@@ -1,29 +1,29 @@
 body {
   background-color: rgb(230, 249, 255);
-  margin: 0;
-}
-.cyan-box {
-  background-color: blue;
-  height: 200px;
-  width: 200px;
-  position: absolute;
-  left: 200px;
-  top: 200px;
-}
-.red-box {
-  background-color: red;
-  height: 200px;
-  width: 200px;
-  position: absolute;
-  top: 400px;
-  left: 400px;
+  font-family: monospace;
 }
 
-.blue-box {
-  background-color: rgb(255, 238, 0);
-  height: 200px;
-  width: 200px;
+h1 {
+  width: 100%;
+}
+
+.bottom-cloud {
   position: absolute;
-  left: 0;
-  top: 0px;
+  left: 350px;
+  top: 300px;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 60px;
+}
+.mountain-img {
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+.headings {
+  text-align: center;
+  position: relative;
+  top: 80px;
 }

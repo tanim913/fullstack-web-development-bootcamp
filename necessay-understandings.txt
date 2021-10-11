@@ -69,4 +69,8 @@ Example:
 }
 14)position : fixed
 will fix position of something in a proper area of the screen
-15)margin: 0 auto 0 auto // top -- right -- bottom -- left
+
+15)margin: 0 auto 0 auto // top -- right -- bottom -- left// 
+       or  0 auto
+this is applicable when an element has a width propety
+
