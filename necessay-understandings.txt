@@ -74,3 +74,9 @@ will fix position of something in a proper area of the screen
        or  0 auto
 this is applicable when an element has a width propety
 
+16) font size calculation
+    100% = 16px
+    so X px = X/16 * 100 (as percentage calculation)
+    1 em = 16 px
+    so X px = X/16 em
+    rem ignores override (most preferable )
