@@ -6,6 +6,7 @@ h1 {
   width: 100%;
   font-family: "Kaushan Script", cursive;
   font-size: 5.625rem;
+  margin: 50px auto 0px auto;
 }
 
 .bottom-cloud {
@@ -21,7 +22,7 @@ h1 {
 .mountain-img {
   text-align: center;
   position: relative;
-  top: 100px;
+  bottom: 10px;
 }
 .headings {
   text-align: center;
@@ -31,6 +32,8 @@ h1 {
 .middle-container {
   padding-top: 150px;
   text-align: center;
+  position: relative;
+  bottom: 100px;
 }
 .bottom-container {
   padding-top: 60px;
@@ -46,5 +49,35 @@ hr {
   width: 10%;
 }
 h3 {
-  font-size: 2.5rem;
+  font-size: 2rem;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.code-img {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+.skills {
+  position: relative;
+  top: 50px;
+}
+.sing-img {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+.skill1-text {
+  position: relative;
+  bottom: 20px;
+}
+.skill2-text {
+  position: relative;
+  bottom: 20px;
 }

@@ -79,4 +79,10 @@ this is applicable when an element has a width propety
     so X px = X/16 * 100 (as percentage calculation)
     1 em = 16 px
     so X px = X/16 em
-    rem ignores override (most preferable )
+    rem (root em) ignores override (most preferable )
+
+link :
+      colorhunt.co
+      www.flaticon.com
+
+position : relative; left : 20px means it will be push right 20px
