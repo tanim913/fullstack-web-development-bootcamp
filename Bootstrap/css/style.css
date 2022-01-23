@@ -1,0 +1,9 @@
+.logo {
+  position: relative;
+  left: 10px;
+}
+
+.button-padding {
+  position: absolute;
+  right: 10px;
+}
