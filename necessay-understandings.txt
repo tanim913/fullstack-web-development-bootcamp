@@ -86,3 +86,9 @@ link :
       www.flaticon.com
 
 position : relative; left : 20px means it will be push right 20px
+
+
+col-lg-6 means 12/2 i.e 2 column in each row when it's in large screen
+
+max-width means <=
+min-width means >=
