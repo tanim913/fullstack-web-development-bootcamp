@@ -1,9 +1,10 @@
-var a = 0;
-var b = 1;
-var f = [a,b];
+
 
 function fib (n)
 {
+    var a = 0;
+    var b = 1;
+    var f = [a,b];
     
     if(n === 1)
     {
