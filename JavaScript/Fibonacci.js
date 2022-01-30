@@ -7,7 +7,9 @@ function fib (n)
     
     if(n === 1)
     {
-        console.log("["+f[0]+"]");
+        var f1 = [];
+        f1[0] = f[0];
+        return f1;
     }
     else
     {
@@ -19,8 +21,8 @@ function fib (n)
             b = c;
             n--;
         }
-    console.log(f);
+    return f;
     }
 }
 //driver code
-fib(3);
+console.log(fib(245));
