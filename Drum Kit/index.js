@@ -45,6 +45,12 @@ function keySelected(key) {
     
 }
 
+function buttonAnimation(currentKey) {
+    document.querySelector("."+currentKey).classList.add("pressed");
+    setTimeout(() => {
+        document.querySelector("."+currentKey).classList.remove("pressed");
+    }, 100);
+}
 
 
 for(var i = 0; i < document.querySelectorAll(".drum").length; i++)
@@ -54,10 +60,13 @@ for(var i = 0; i < document.querySelectorAll(".drum").length; i++)
         var buttonInnerHtml = this.innerHTML;
 
         keySelected(buttonInnerHtml);
+        buttonAnimation(buttonInnerHtml);
         
     })
 }
 
 document.addEventListener("keypress", function(event) {
     keySelected(event.key);
+    buttonAnimation(event.key);
+    
 });
