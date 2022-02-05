@@ -65,8 +65,8 @@ for(var i = 0; i < document.querySelectorAll(".drum").length; i++)
     })
 }
 
-document.addEventListener("keypress", function(event) {
-    keySelected(event.key);
-    buttonAnimation(event.key);
+document.addEventListener("keypress", function(e) {
+    keySelected(e.key);
+    buttonAnimation(e.key);
     
 });
